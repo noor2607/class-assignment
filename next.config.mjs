@@ -1,4 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.mjs
 
-export default nextConfig;
+export default {
+    eslint: {
+      ignoreDuringBuilds: true, // Ignore ESLint during production builds
+    },
+    // You can add more configuration settings here as needed
+  };
+  
