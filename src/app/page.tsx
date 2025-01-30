@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
-        {/* Section 1 */}
+     
         <section className="w-full md:w-[1462px] h-auto md:h-[600px] bg-[#043873] text-white py-5 md:py-20 px-0 md:px-0 text-center md:text-left">
           <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center">
             <div className="w-full md:w-1/2 space-y-4">
@@ -30,7 +30,7 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Section 2 */}
+       
         <div className="w-full md:w-[1510px] h-auto md:h-[1200px] bg-white px-6 md:px-8">
           <section className="py-10 md:py-20">
             <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center">
@@ -54,7 +54,6 @@ export default function Page() {
             </div>
           </section>
 
-          {/* Section 3 */}
           <section className="md:w-full py-10 md:py-20 px-4 md:px-4 flex flex-col md:flex-row items-center justify-center">
             <Image
               src="/work1.png"
@@ -82,7 +81,7 @@ export default function Page() {
           </section>
         </div>
 
-        {/* Section 4 */}
+       
         <section className="w-full md:w-[1462px] h-auto md:h-[520px] bg-[#043873] text-white py-10 md:py-16 px-4 md:px-8 text-center md:text-left">
           <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-4">
             <div className="w-full md:w-1/2 space-y-4">
@@ -105,7 +104,7 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Section 5 */}
+      
         <section className="w-full md:w-[1510px] h-auto md:h-[520px] bg-white py-10 md:py-16 px-6 md:px-8">
           <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
             <div className="w-[300px] md:w-1/2 bg-[#C4DEFD] h-[200px] md:h-[350px]"></div>
@@ -128,7 +127,6 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Section 6 */}
         <section className="w-full md:w-[1462px] h-auto md:h-[450px] bg-[#043873] text-white py-10 md:py-16 px-4 md:px-8 text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl md:text-6xl font-bold mb-4 md:mb-8">Your Work, Everywhere You Are</h2>
@@ -148,7 +146,7 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Section 7 */}
+    
         <section className="w-full md:w-[1510px] h-auto md:h-[450px] bg-white py-10 md:py-20 px-6 md:px-8 text-center">
           <div className="">
             <h2 className="text-4xl md:text-7xl font-bold text-black mb-8 md:mb-10">Our Sponsors</h2>
